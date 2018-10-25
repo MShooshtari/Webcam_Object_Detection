@@ -25,16 +25,9 @@ if tf.__version__ < '1.4.0':
   raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
 
 
-from utils import label_map_util
+from object_detection.utils import label_map_util
 
-from utils import visualization_utils as vis_util
-
-
-
-
-
-
-
+from object_detection.utils import visualization_utils as vis_util
 
 
 # What model to download.
